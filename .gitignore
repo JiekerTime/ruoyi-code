@@ -1,0 +1,30 @@
+# Build artifacts
+rust/target/
+
+# Environment / credentials
+.env
+*.env.local
+
+# Python
+__pycache__/
+
+# Ruoyi Code local artifacts
+.ruoyi/settings.local.json
+.ruoyi/sessions/
+.ruoyi/worker-state.json
+.ruoyi-plugin/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives / temp
+archive/
+.omx/
